@@ -1,10 +1,26 @@
 .title{
     text-align: center;
     color: whitesmoke;
-    -webkit-text-stroke: 2px darkred;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: 0.1px darkred;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight:bold;
     font-size: 80px;
+}
+
+.inputBoxes{
+    margin: 0px;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: darkred;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+    background-color: whitesmoke;
+    outline: transparent;
+    border: transparent;
+    border-radius: 4px;
 }
 
 .button{
@@ -13,11 +29,77 @@
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: whitesmoke;
-    -webkit-text-stroke: 2px darkred;
+    color: darkred;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:bold;
-    font-size: 80px;
+    font-size: 25px;
+    background-color: whitesmoke;
+    outline: transparent;
+    border: transparent;
+    border-radius: 4px;
+}
+
+.button:hover{
+    margin: 0px;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    outline: transparent;
+    border: transparent;
+    color: whitesmoke;
+    background-color: darkred;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+    transition-property: all;
+    transition: 0.25s;
+}
+
+.button:active{
+    color: whitesmoke;
+    background-color: rgba(189, 0, 0);
+    transition: 0.2s;
+}
+
+
+.regbutton{
+    margin: 0px;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: darkred;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+    background-color: whitesmoke;
+    outline: transparent;
+    border: transparent;
+    border-radius: 4px;
+}
+
+.regbutton:hover{
+    margin: 0px;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    outline: transparent;
+    border: transparent;
+    color: whitesmoke;
+    background-color: darkred;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+    transition-property: all;
+    transition: 0.25s;
+}
+
+.regbutton:active{
+    color: whitesmoke;
+    background-color: rgba(189, 0, 0);
+    transition: 0.2s;
 }
 
 body {

@@ -2,33 +2,71 @@ import './App.css'
 
 const user = {};
 user.name = "Manav";
+let page = 0
 
-function MyButton() {
+function LoginButton() {
 
   function ButtonClick() {
     alert("Clicked!")
+    page = 2;
   } 
 
   return ( 
     <button onClick={ButtonClick} className='button'>
-      I am a button!
+      Login
     </button>
   )
 }
 
-function App() {
+function RegisterButton() {
+
+  function ButtonClick() {
+    //alert("Clicked!")
+  } 
+
+  return ( 
+    <button onClick={ButtonClick} className='regbutton'>
+      Register
+    </button>
+  )
+}
+
+function LoginPage() {
   return (
     <div className="App">
-      <h1 className = "title">  Welcome to website <br/> Wanna chill, {user.name}?</h1>
+      <h1 className = "title">  Satell-eye</h1>
       <br/>
       <br/>
       <br/>
+      <input tag = "userName" className='inputBoxes'></input>
       <br/>
       <br/>
-      <MyButton/>
-      
+      <input  tag = "userPass" className='inputBoxes'></input>
+      <br/>
+      <br/>
+      <br/>
+      <LoginButton/>
+      <br/>
+      <br/>
+      <RegisterButton/>
     </div>
   );
+}
+
+function App() {
+  let pageToDo;
+  if(page === 0) {
+    pageToDo = <LoginPage/>;
+  }
+  else if(page === 2){
+    console.log("LOL")
+  }
+  return (
+    <div>
+      {pageToDo}
+    </div>
+    
+  )
 }
 
 export default App;
