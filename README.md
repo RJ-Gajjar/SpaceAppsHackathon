@@ -4,7 +4,7 @@
 
 Using six metrics from various datasets over numerous time stamps, we were able to calculate a metric: the Environmental Impact Score. This metric assess the susceptibility/impact on a region's environment. The six metrics were water quality, pollution, albedo, deforestation, ozone, soil quality. This further identifies metrics in which the region can improve, as well as suggestions for solutions that may help. Finally, registered users are able to communicate with other users to collaborate in implementing these solutions for the region.
 
-## PROJECT DEMO
+## PROJECT PRESENTATION
 
 https://docs.google.com/presentation/d/150kroSaxTN2FdH5M-JvDOjbeAvP_leAxi4bP_cbDtHk/edit?usp=sharing
 
